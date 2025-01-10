@@ -6,7 +6,7 @@ public class CustomErrorController {
 
     @RequestMapping("/error")
     public String handleError() {
-        return "error"; // エラーページのテンプレート名を返します（例：error.html、error.jspなどなど）
+        return "error"; // エラーページのテンプレート名を返します（例：error.html、error.jspなど）
     }
 
     public String getErrorPath() {
